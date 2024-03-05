@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    margin: 1em;
+    position: relative;
+}
+
+.logo {
+    height: 4em;
+    width: 4em;
+    background-color: red;
+    background-image: url(./img/logo\ copia.png);
+    background-size: cover;
+
+}
+
+.text {
+    position: absolute;
+    left: 3em;
+    top: 0;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.2em;
+}
+
+/* main */
+
+main {
+    background-color: rgb(238, 242, 244);
+    height: 100vh;
+}
+
+.left-content {
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(238, 242, 244);
+    float: left;
+}
+
+.right-content {
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(238, 242, 244);
+    float: left;
+}
+
+.content {
+    margin-top: 5em;
+    width: 70%;
+    height: 85vh;
+    background-color: white;
+    float: left;
+    border-radius: 1%;
+}
+
+.container {
+    margin: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    color: white;
+    background-color: rgb(57, 57, 240);
+}
+
+.sec {
+    width: 6em;
+}
+
+section {
+    margin: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    margin-top: 1em;
+}
+
+.editorial {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgb(51, 54, 238);
+    padding: 0.8em;
+    border-radius: 15px;
+    margin-left: 0.5em;
+}
+
+.q1 {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgb(196, 21, 196);
+    padding: 0.8em;
+    border-radius: 15px;
+    margin-left: 0.5em;
+}
+
+.recruiting {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgb(19, 174, 81);
+    padding: 0.8em;
+    border-radius: 15px;
+    margin-left: 0.5em;
+}
+
+.mobile {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgb(252, 151, 19);
+    padding: 0.8em;
+    border-radius: 15px;
+    margin-left: 0.5em;
+}
+
+.website {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgb(196, 21, 79);
+    padding: 0.8em;
+    border-radius: 15px;
+    margin-left: 0.5em;
+}
+
+.sales {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgb(47, 233, 30);
+    padding: 0.8em;
+    border-radius: 15px;
+    margin-left: 0.5em;
+}
+
+.button {
+    color: white;
+    font-size: 0.6em;
+    background-color: rgb(51, 54, 238);
+    padding: 0.8em;
+    border-radius: 5px;
+    margin-left: 0.5em;
+}
